@@ -1,115 +1,119 @@
-.speech
-{
-    color:black;
-    font-size: medium;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
-}
-.direction
-{
-    background-color:rgb(153, 153, 223);
+.speech{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
     color: black;
-    font-size:small;
-    font-family: 'Courier New', Courier, monospace;
-}
-.direction:hover
-{
-    color: rgba(250, 97, 250, 0.87);
-    background-color: rgb(7, 99, 99);
-}
-.name {
-    color: rgb(219, 46, 219);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.YASHA {
-    color: rgb(225, 111, 240);
-}
-.LOPAKHIN {
-    color:rgba(244, 154, 244, 0.842);
-}
-.TROFIMOV {
-    color:rgb(21, 66, 151);
-}
-.BORTSOV:hover{
-    color:rgb(179, 238, 137)
-}
-
-table {
-    border-color: black;
-    width: 50%;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-}
-.table_header_col{
-    background-color: aquamarine;
-}
-
-th {
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: rgba(243, 9, 231, 0.902);
-    color: black;
-    height: 50px;
-}
-
-td {
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: rgb(220, 62, 244);
-    height: 30px;
-}
-
-tr:hover {
-    background-color: rgba(231, 147, 233, 0.989);
-    border: 2px solid black; /* Add this line to change the border color on hover */
-}
-
-.FEDYA:hover{
-    font-size: medium;
-    color: rgb(111, 243, 243);
-    text-shadow: 0 0 10px rgba(239, 128, 198, 0.8);
-    border-style: dashed;
-    border-radius: 5px;
-}
-
-.SAVVA:hover {
-    font-size: medium;
-    color: palegreen;
-    text-shadow: 0 0 10px rgba(249, 246, 70, 0.8);
-    border-style: dashed;
-    border-radius: 5px;}
-
-.TIHON:hover {
-    font-size: medium;
-    color: purple;
-    text-shadow: 0 0 10px rgba(100, 149, 237, 0.8); 
-    border-style: dashed;
-    border-radius: 5px;}
-
-.BORTSOV:hover {
+    }
+    .direction{
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        color: black;
+        background-color:azure;
+    }
+    .direction:hover{
+        background-color:beige;
+        color: rgb(31, 49, 55);
+    }
+    .name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    }
+    
+    .FEDYA{
+        color: darkblue;
+    }
+    .SAVVA{
+        color: rgb(116, 28, 205);
+    }
+    .TIHON{
+        color:darkmagenta;
+    }
+    .BORSTOV{
+        color:rgb(162, 148, 162);
+    }
+    
+    .table{
+        border-color:rgba(55, 97, 81, 0.705);
+        width: 0vmax;
+        text-align: center;
+        padding: 13px;
+        margin: 12px;
+    }
+    .table_header_col{
+        background-color: blueviolet;
+    }
+    th{
+        border: 2px solid;
+        border-radius: 5px;
+        border-color: rgb(51, 150, 5);
+        color:rgb(252, 250, 250);
+        height: 50px;
+        background-color:rgba(245, 151, 9, 0.858);
+    }
+    
+    td {
+        border: 2px solid;
+        border-radius: 3px;
+        border-color:rgb(198, 45, 58);
+        height:40px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #9ba19d;
+    }
+    
+    tr:nth-child(odd) {
+        background-color: #277c22;
+    }
+    
+    
+    tr:hover {background-color: chocolate;
+    }
+    
+    
+    .FEDYA:hover {
         font-size: medium;
-        color: fuchsia;
-        text-shadow: 0 0 10px rgba(172, 234, 222, 0.8); 
-        border-style: dashed;
-        border-radius: 5px;}
+        color:rgb(193, 13, 217);
+        text-shadow:0 0 10px rgb(99, 93, 181);
+        border-style: double;
+        border-radius: 5px;
+    }
+    .SAVVA:hover {
+        font-size: medium;
+        color:rgb(70, 57, 86);
+        text-shadow: 0 0 10px rgb(138, 219, 9);
+        border-style: double ;
+        border-radius: 5px;
+    }
+    .TIHON:hover{
+        font-size: medium;
+        color:rgb(36, 60, 87);
+        text-shadow: 0 0 10px rgb(225, 7, 14);
+        border-style: double;
+        border-radius: 6px;
+    }
+    .BORSTOV:hover{
+        font-size: medium;
+        color:rgb(153, 214, 11);
+        text-shadow: 0 0 10px rgb(215, 159, 161);
+        border-style: double;
+        border-radius: 6px;}
 
     ul.navbar-horizontal {
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        margin: 2;
+        padding: 3;
         }
-    ul.navbar-horizontal li {
-        float:left;
-        color:#000;
-        background-color:cyan;
+        ul.navbar-horizontal li {
+            float:left;
+            color:rgb(73, 218, 6);
+            background-color: rgb(20, 205, 243);
         }
-    ul.navbar-horizontal a {
-        display:block;
-        padding:8px
+        ul.navbar-horizontal a {
+            display:block;
+            padding:8px;
         }
-    ul.navbar-horizontal a:hover {  
-        background-color: rgb(157, 225, 209);
-        color:white;
+        ul.navbar-horizontal a:hover {
+            background-color: rgb(119, 9, 27);
+            color:rgb(14, 53, 246);
         }
 
 
