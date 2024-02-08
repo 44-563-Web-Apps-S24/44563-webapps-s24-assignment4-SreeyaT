@@ -1,59 +1,68 @@
 .speech
 {
-color: black;
-font-size: medium;
-border-style: ridge;
-font-family: Arial, Helvetica, sans-serif;
-
+    color:black;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
 }
 .direction
 {
-    color: aqua;
-    font-size: small;
-    border-style: groove;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(153, 153, 223);
+    color: black;
+    font-size:small;
+    font-family: 'Courier New', Courier, monospace;
 }
-.name
+.direction:hover
 {
-    color: brown;
-    font-size: large;
-    border-style: double;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(250, 97, 250, 0.87);
+    background-color: rgb(7, 99, 99);
 }
-.FEDYA{
-    color: rgb(153, 55, 32);
+.name {
+    color: rgb(219, 46, 219);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.SAVVA{
-    color: rgb(126, 78, 69);
+.YASHA {
+    color: rgb(225, 111, 240);
 }
-.TIHON{
-    color: rgb(123, 55, 32);
+.LOPAKHIN {
+    color:rgba(244, 154, 244, 0.842);
 }
-.BORTSOV{
-    color: rgb(145,63,72);
+.TROFIMOV {
+    color:rgb(21, 66, 151);
 }
+.BORTSOV:hover{
+    color:rgb(179, 238, 137)
+}
+
 table {
-    border-color: mediumorchid;
+    border-color: black;
     width: 50%;
     text-align: center;
     padding: 10px;
     margin: 10px;
 }
+.table_header_col{
+    background-color: aquamarine;
+}
+
 th {
     border: 1px solid;
     border-radius: 5px;
-    border-color:burlywood;
-    color:greenyellow;
+    border-color: rgba(243, 9, 231, 0.902);
+    color: black;
     height: 50px;
-    background-color:turquoise (222, 39, 91);
 }
+
 td {
     border: 1px solid;
     border-radius: 5px;
-    border-color:beige(32, 5, 132);
+    border-color: rgb(220, 62, 244);
     height: 30px;
 }
-tr:hover {background-color:rgb(179, 164, 209);}
+
+tr:hover {
+    background-color: rgba(231, 147, 233, 0.989);
+    border: 2px solid black; /* Add this line to change the border color on hover */
+}
 
 .FEDYA:hover{
     font-size: medium;
@@ -84,26 +93,24 @@ tr:hover {background-color:rgb(179, 164, 209);}
         border-style: dashed;
         border-radius: 5px;}
 
-        ul.navbar-horizontal {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            }
-        ul.navbar-horizontal li {
-            float:left;
-            color:#000;
-            background-color:cyan;
-            }
-        ul.navbar-horizontal a {
-            display:block;
-            padding:8px
-            }
-        ul.navbar-horizontal a:hover {  
-            background-color: rgb(26, 189, 151);
-            color:white;
-            }            
-            
+    ul.navbar-horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+    ul.navbar-horizontal li {
+        float:left;
+        color:#000;
+        background-color:cyan;
+        }
+    ul.navbar-horizontal a {
+        display:block;
+        padding:8px
+        }
+    ul.navbar-horizontal a:hover {  
+        background-color: rgb(157, 225, 209);
+        color:white;
+        }
 
 
-
-
+           
